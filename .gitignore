@@ -1,0 +1,29 @@
+# Build artifacts
+build/
+dist/
+*.bin
+*.elf
+
+# IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Dependencies
+node_modules/
+
+# Secrets
+.env
+.env.local
+*.key
+
+# Photos (local testing)
+photos/
+*.jpg
+*.jpeg
+*.png
+!docs/**/*.png
